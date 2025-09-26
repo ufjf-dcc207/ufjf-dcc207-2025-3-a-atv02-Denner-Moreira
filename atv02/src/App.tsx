@@ -1,11 +1,11 @@
 import './App.css';
-import disciplina from './disciplina';
+import Disciplina from './disciplina';
 
 function App() {
   return(
    <> 
   <h1>Hello world!</h1>
-  <disciplina />
+  <Disciplina codigo ="DCC207" nome="Desenvolvimento web Front End" />
   </>
 );
 }
