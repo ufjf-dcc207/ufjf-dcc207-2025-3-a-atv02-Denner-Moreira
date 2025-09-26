@@ -5,11 +5,11 @@ type DisciplinaProps = {
     codigo: string;
 }
 
-export default function Disciplina (props: DisciplinaProps){
+export default function Disciplina ({codigo, nome}: DisciplinaProps){
     return( 
     <div className = "disciplina">
-      <h1>{props.nome}</h1>
-      <h2>{props.codigo}</h2>
+      <h1>{nome}</h1>
+      <h2>{codigo}</h2>
     </div>
     );
 }
